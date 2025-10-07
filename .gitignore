@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.venv/
+.env
+.DS_Store
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Datos grandes o generados (ajustar según necesidad)
+data/processed/
+outputs/
+models/
+
+# Logs / caches
+*.log
+.mypy_cache/
+.pytest_cache/
+/.coverage
+coverage.xml
